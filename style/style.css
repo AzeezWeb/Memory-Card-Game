@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  text-shadow: 4px -2px 16px #CE5937
+  text-shadow: 4px -2px 16px #504c4b
 }
 
 .container {
@@ -71,4 +71,24 @@ h1 {
 
 .show {
   transform: rotateY(0deg);
+}
+
+
+@media only screen and (max-width:578px) {
+  .container {
+    width: 400px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 250px;
+  }
+
+  .card {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+  }
+
+  .card i {
+    font-size: 28px;
+  }
 }
